@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fifteen-puzzle-client-side-solution",
+    "id": "e0d374b5-2975-4c5e-acdc-35dfdc5953f1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fifteen-puzzle description"
+      },
+      "longDescription": {
+        "default": "fifteen-puzzle description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fifteen-puzzle Feature",
+        "description": "The feature that activates elements of the fifteen-puzzle solution.",
+        "id": "f76b169f-2d91-4d0f-929d-125e40452de7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fifteen-puzzle.sppkg"
+  }
+}
